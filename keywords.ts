@@ -14,8 +14,8 @@ keywords.set("401", (ctx) => {
   return Promise.resolve(generateResponse(ctx, 401));
 });
 
-keywords.set("403", (ctx) => {
-  return Promise.resolve(generateResponse(ctx, 403));
+keywords.set("404", (ctx) => {
+  return Promise.resolve(generateResponse(ctx, 404));
 });
 
 keywords.set("500", (ctx) => {
